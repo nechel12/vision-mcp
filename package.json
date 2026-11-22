@@ -1,0 +1,28 @@
+{
+  "name": "vision-mcp",
+  "version": "1.0.0",
+  "description": "MCP server that gives a non-vision coding agent 'eyes' via free OpenRouter vision models (nemotron primary, free fallbacks, cheap paid last resort, with retries).",
+  "type": "module",
+  "bin": {
+    "vision-mcp": "server.mjs"
+  },
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "vision",
+    "openrouter",
+    "image",
+    "screenshot",
+    "design-review",
+    "ai"
+  ],
+  "license": "MIT",
+  "dependencies": {}
+}
